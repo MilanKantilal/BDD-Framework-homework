@@ -1,0 +1,213 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4776496100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should able to open browser",
+            "match": {
+              "location": "RegisterStepDefinitions.user_should_able_to_open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1287356400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter URL",
+            "match": {
+              "location": "RegisterStepDefinitions.enter_URL()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Nopcommerce valid Register Test",
+        "description": "",
+        "id": "nopcommerce-user-registration;nopcommerce-valid-register-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2298453300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on the register link",
+            "match": {
+              "location": "RegisterStepDefinitions.user_click_on_the_register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be on register page",
+            "match": {
+              "location": "RegisterStepDefinitions.user_should_be_on_register_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10910100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify register page title",
+            "match": {
+              "location": "RegisterStepDefinitions.verify_register_page_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70569800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be able to select gender male or female",
+            "match": {
+              "location": "RegisterStepDefinitions.user_should_be_able_to_select_gender_male_or_female()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 195541400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should able enter firstname and lastname",
+            "match": {
+              "location": "RegisterStepDefinitions.user_should_able_enter_firstname_and_lastname()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 225320600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should abele to select date of Date of BirthDay,BirthMonth and BirthYear",
+            "match": {
+              "location": "RegisterStepDefinitions.user_should_abele_to_select_date_of_Date_of_BirthDay_BirthMonth_and_BirthYear()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "User enter valid email address",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User enter company name",
+            "match": {
+              "location": "RegisterStepDefinitions.user_enter_company_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User able to tick the Newsletter tick-box",
+            "match": {
+              "location": "RegisterStepDefinitions.user_able_to_tick_the_Newsletter_tick_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User enter the password",
+            "match": {
+              "location": "RegisterStepDefinitions.user_enter_the_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User enter the password to confirm",
+            "match": {
+              "location": "RegisterStepDefinitions.user_enter_the_password_to_confirm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User finally able to click on register button",
+            "match": {
+              "location": "RegisterStepDefinitions.user_finally_able_to_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User should be on register successfully",
+            "match": {
+              "location": "RegisterStepDefinitions.user_should_be_on_register_successfully()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User can close the browser",
+            "match": {
+              "location": "RegisterStepDefinitions.user_can_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Nopcommerce User Registration",
+    "description": "",
+    "id": "nopcommerce-user-registration",
+    "keyword": "Feature",
+    "uri": "C:/Users/Milan/IdeaProjects/SimpleBDDFrameWork/src/test/resources/Features/Register.feature"
+  }
+]

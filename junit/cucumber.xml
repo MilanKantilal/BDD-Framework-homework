@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.864682">
+<testcase classname="Nopcommerce User Registration" name="Nopcommerce valid Register Test" time="8.864682">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given User should able to open browser......................................passed
+And Enter URL...............................................................passed
+When User click on the register link........................................passed
+Then User should be on register page........................................passed
+And Verify register page title..............................................passed
+Then User should be able to select gender male or female....................passed
+Then User should able enter firstname and lastname..........................passed
+Then User should abele to select date of Date of BirthDay,BirthMonth and BirthYear.passed
+Then User enter valid email address.........................................undefined
+Then User enter company name................................................skipped
+Then User able to tick the Newsletter tick-box..............................skipped
+Then User enter the password................................................skipped
+And User enter the password to confirm......................................skipped
+And User finally able to click on register button...........................skipped
+And User should be on register successfully.................................skipped
+Then User can close the browser.............................................skipped
+]]></failure>
+</testcase>
+</testsuite>
